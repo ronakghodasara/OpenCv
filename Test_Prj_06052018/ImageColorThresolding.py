@@ -101,7 +101,7 @@ RGB_lower = np.array([0, 0, 0])
 YCbCr_lower = np.array([0, 0, 0])
 create_track_bar()
 
-while():
+while(1):
 
     # Take each frame
     _, frame = cap.read()
