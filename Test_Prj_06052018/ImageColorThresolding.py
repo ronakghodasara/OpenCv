@@ -130,3 +130,9 @@ while(1):
         break
 
 cv2.destroyAllWindows()
+print('HSV_lower : {}'.format(HSV_lower))
+print('HSV_upper : {}'.format(HSV_upper))
+print('YCbCr_lower : {}'.format(YCbCr_lower))
+print('YcbCr_upper : {}'.format(YcbCr_upper))
+print('RGB_lower : {}'.format(RGB_lower))
+print('RGB_upper : {}'.format(RGB_upper))
