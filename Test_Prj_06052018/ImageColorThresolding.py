@@ -113,7 +113,7 @@ while(1):
     # Threshold the image to get specific colors
     mask_HSV = cv2.inRange(hsv, HSV_lower, HSV_upper)
     mask_YCbCr = cv2.inRange(YCrCb, YCbCr_lower, YcbCr_upper)
-    mask_RGB = cv2.inRange(YCrCb, RGB_lower, RGB_upper)
+    mask_RGB = cv2.inRange(frame, RGB_lower, RGB_upper)
 
     # Bitwise-AND mask and original image
     res = cv2.bitwise_and(frame, frame, mask=mask_HSV)
